@@ -13,22 +13,14 @@ body {
 .component{
   display: flex;
   margin: 10px;
-  /* padding-left: 20px; */
 }
 
 .navbar {
   position: fixed;
-  /* z-index: 100000; */
-  /* margin-right: 1000px; */
   width: 20%;
   height:610px;
-  /* //rather learning to make it of screen lenght */
-  /* display: flex; */
   align-items: center;
-  /* justify-content: center; */
   justify-content: space-between;
-  /* background: rgb(255, 255, 255); */
-  /* border: 1px solid rgb(218, 217, 217); */
   border-right: 1px solid rgb(161, 161, 161);
 }
 
@@ -73,7 +65,6 @@ body {
 }
 
 .center-comp{
-  /* margin: 20px; */
   width:60%;
   margin-left:280px
 }
@@ -81,29 +72,16 @@ body {
 #story {
   color: black;
   width: 900px;
-  /* border-radius: 30px; */
-  /* background-color: blue; */
   display: flex;
   margin: 20px;
-  /* padding: 20px; */
   justify-content: space-between;
   text-decoration: none;
 }
 
 
 #story img{
-  /* border-width: 5px;
-  border-style: solid;
-  border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1;
-  box-shadow: 0 0 0 5px red, 0 0 0 10px green, 0 0 0 15px blue;;//the solution to concentric border rather than border-image
-  border-radius: 20px; */
-
-  border-radius: 40px;
-  /* border: 3px solid  grey;  */
+   border-radius: 40px;
   box-shadow: 0 0 0 2px white, 0 0 0 3px rgb(197, 197, 197);
-  /* border-width: 10px;
-  /* border-style: solid; */
-  /* border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 1; */
   height: 70px;
   width: 70px;
 }
@@ -177,7 +155,6 @@ body {
   display: flex;
   align-content: center;
   align-items: center;
-  /* margin-left:50px; */
   justify-content: space-between;
   margin-bottom: 30px;
 }
@@ -208,12 +185,6 @@ align-items: center;
 justify-content: space-between;
 cursor: pointer;
 }
-/* .vertical {
-  height: 100px;
-  border: none;
-  border-left: 2px solid grey;
-  transform: rotate(90deg);
-} */
 
 .container{
   display: flex;
@@ -238,11 +209,8 @@ cursor: pointer;
   padding-left: 20px;
   padding-right: 20px;
   position: relative;
-  /* display: inline-block; */
 }
 .image-container0 {
-  /* height: 300px;
-  width: 400px; */
   position: relative;
   display: inline-block;
 }
