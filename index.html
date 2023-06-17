@@ -1,126 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Insta clone</title>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-		integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-		crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-
-<body>
-	<div class="component">
-		<div class="navbar">
-			<li><img
-					src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSFk25BM4UrxXvfDGa8_FyLKXmLphypZgfrXbMoCOPe4gPhw7qhWWq9UJzJHAvcgnWvY&usqp=CAU">
-			</li>
-			<li><a href="page2.html"><i class="fa-solid fa-house"></i>Home</a></li>
-			<li><a href="page2.html"><i class="fa-solid fa-magnifying-glass"></i>Search</a></li>
-			<li><a href="page2.html"><i class="fa-solid fa-compass"></i>Explore</a></li>
-			<!-- <li><a href="page2.html"><i class="fa-solid fa-clapperboard-play"></i>Reels</a></li> -->
-			<li><a href="page2.html"><i class="fa-regular fa-square-caret-down"></i>Reels</a></li>
-			<li><a href="page2.html"><i class="fa-brands fa-facebook-messenger"></i>Messeges</a></li>
-			<li><a href="page2.html"><i class="fa-regular fa-heart"></i>Notifications</a></li>
-			<li><a href="page2.html"><i class="fa-solid fa-folder-plus"></i>Create</a></li>
-			<li><a id="navbar-an" href="page2.html"><img id="navbar-profile" src="https://picsum.photos/400?random=10 alt="profile">Profile</a>
-			</li>
-			<li><a href="page2.html"><i class="fa-solid fa-bars"></i>More</a></li>
-		</div>
-		<div class="center-comp">
-			<div class="all">
-				<div id="suggestions">
-					<img src="https://picsum.photos/400?random=10">
-				</div>
-				<div>
-					<div class="top">
-						<p id="name">barsaaaa</p>
-						<button id="follow">Follow</button>
-						<button id="messege">Messege</button>
-						<button id="plus"><i class="fa-sharp fa-solid fa-user-plus"></i></button>
-						<i id="dots" class="fa-sharp fa-solid fa-ellipsis"></i>
-					</div>
-					<div class="middle">
-						<p><b>40</b> posts</p>
-						<p><b>200</b> followers</p>
-						<p><b>227</b> following</p>
-					</div>
-					<div class="bottom">
-						<small><b>
-								<p>Barsha</p>
-							</b>
-							<p>Live what you love <i class="fa-sharp fa-solid fa-heart"></i></p>
-							<p>Lalitpur,Nepal</p><br>
-						</small>
-						<p style="font-size: 11px;">Followed by <b>bhaavnaa,bhoomika </b>+ 2 more </p>
-					</div>
-				</div>
-			</div>
-			<div class="allstory">
-				<center><a href="blaa.html" class="story" id="story"></a></center>
-			</div>
-			<hr class="vertical">
-			<div class="feed">
-				<span><i style="margin-right: 10px;" class="fa-solid fa-table-cells"></i>POSTS</span>
-				<span><i style="margin-right: 10px;" class="fa-regular fa-square-caret-down"></i>REELS</span>
-				<span><i style="margin-right: 10px;" class="fa-solid fa-users-rectangle"></i>TAGGED</span>
-			</div>
-			<div class="posts">
-				<div class="container">
-					<div class="image-container0">
-						<img src="https://picsum.photos/400">
-						<div class="icon-0">
-							<i class="fa-solid fa-heart">200</i>
-							<i class="fa-sharp fa-solid fa-comment">50</i>
-						</div>
-					</div>
-					<div class="image-container1">
-						<img src="https://picsum.photos/400?random=1">
-						<div class="icon-1">
-							<i class="fa-solid fa-heart">50</i>
-							<i class="fa-sharp fa-solid fa-comment">5</i>
-						</div>
-					</div>
-					<div class="image-container2">
-						<img src="https://picsum.photos/400?random=2">
-						<div class="icon-2">
-							<i class="fa-solid fa-heart">60</i>
-							<i class="fa-sharp fa-solid fa-comment">7</i>
-						</div>
-					</div>
-
-				</div>
-				<div class="container">
-					<div class="image-container3">
-						<img src="https://picsum.photos/400?random=4">
-						<div class="icon-3">
-							<i class="fa-solid fa-heart">70</i>
-							<i class="fa-sharp fa-solid fa-comment">9</i>
-						</div>
-					</div>
-					<div class="image-container4">
-						<img src="https://picsum.photos/400?random=5">
-						<div class="icon-4">
-							<i class="fa-solid fa-heart">80</i>
-							<i class="fa-sharp fa-solid fa-comment">8</i>
-						</div>
-					</div>
-					<div class="image-container5">
-						<img src="https://picsum.photos/400?random=6">
-						<div class="icon-5">
-							<i class="fa-solid fa-heart">90</i>
-							<i class="fa-sharp fa-solid fa-comment">9</i>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<script src="script.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Insta clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="component">
+      <div class="navbar">
+        <li>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSFk25BM4UrxXvfDGa8_FyLKXmLphypZgfrXbMoCOPe4gPhw7qhWWq9UJzJHAvcgnWvY&usqp=CAU"
+          />
+        </li>
+        <li>
+          <a href="page2.html"><i class="fa-solid fa-house"></i></a>Home
+        </li>
+        <li class="remove">
+          <a href="page2.html"><i class="fa-solid fa-magnifying-glass"></i></a
+          >Search
+        </li>
+        <li>
+          <a href="page2.html"><i class="fa-solid fa-compass"></i></a>Explore
+        </li>
+        <li>
+          <a href="page2.html"
+            ><i class="fa-regular fa-square-caret-down"></i></a
+          >Reels
+        </li>
+        <li>
+          <a href="page2.html"
+            ><i class="fa-brands fa-facebook-messenger"></i></a
+          >Messeges
+        </li>
+        <li class="remove">
+          <a href="page2.html"><i class="fa-regular fa-heart"></i></a
+          >Notifications
+        </li>
+        <li>
+          <a href="page2.html"><i class="fa-solid fa-folder-plus"></i></a>Create
+        </li>
+        <li>
+          <a href="page2.html"><i class="fa-solid fa-circle"></i></a>Profile
+        </li>
+        <li>
+          <a href="page2.html" class="remove"
+            ><i class="fa-solid fa-bars"></i>More</a
+          >
+        </li>
+      </div>
+      <div class="center-comp">
+        <section class="inner-div">
+          <div class="all1">
+            <div class="top">
+              <img src="https://picsum.photos/400?random=10" />
+              <div>
+                <div class="user-details">
+                  <p id="name">barsaaaa</p>
+                  <button id="follow">Follow</button>
+                  <button id="messege">Messege</button>
+                  <button id="plus">
+                    <i class="fa-sharp fa-solid fa-user-plus"></i>
+                  </button>
+                  <i id="dots" class="fa-sharp fa-solid fa-ellipsis"></i>
+                </div>
+              </div>
+            </div>
+            <div class="middle1">
+              <p><b>40</b> posts</p>
+              <p><b>200</b> followers</p>
+              <p><b>227</b> following</p>
+            </div>
+            <div class="bottom">
+              <b>
+                <p>Barsha</p>
+              </b>
+              <p>
+                Live what you love
+                <i class="fa-sharp fa-solid fa-heart"></i>
+              </p>
+              <p>Lalitpur,Nepal</p>
+              <br />
+              <p class="btm">Followed by <b>bhaavnaa,bhoomika </b>+ 2 more</p>
+            </div>
+          </div>
+          <div class="all2">
+            <img src="https://picsum.photos/400?random=10" />
+            <div>
+              <div class="top">
+                <p id="name">barsaaaa</p>
+                <button id="follow">Follow</button>
+                <button id="messege">Messege</button>
+                <button id="plus">
+                  <i class="fa-sharp fa-solid fa-user-plus"></i>
+                </button>
+                <i id="dots" class="fa-sharp fa-solid fa-ellipsis"></i>
+              </div>
+              <div class="middle1">
+                <p><b>40</b> posts</p>
+                <p><b>200</b> followers</p>
+                <p><b>227</b> following</p>
+              </div>
+              <div class="bottom">
+                <small
+                  ><b>
+                    <p>Barsha</p>
+                  </b>
+                  <p>
+                    Live what you love
+                    <i class="fa-sharp fa-solid fa-heart"></i>
+                  </p>
+                  <p>Lalitpur,Nepal</p>
+                  <br />
+                </small>
+                <p>Followed by <b>abbbbbc,xyzzzzz </b>+ 2 more</p>
+              </div>
+            </div>
+          </div>
+          <div class="allstory">
+            <a href="blaa.html" class="story" id="story"></a>
+          </div>
+          <div class="middle2">
+            <p><b>40</b> posts</p>
+            <p><b>200</b> followers</p>
+            <p><b>227</b> following</p>
+          </div>
+          <div class="feed">
+            <span class="feed-span"
+              ><i
+                style="margin-right: 10px;"
+                class="fa-solid fa-table-cells"
+              ></i>
+              <p>POSTS</p></span
+            >
+            <span class="feed-span"
+              ><i
+                style="margin-right: 10px;"
+                class="fa-regular fa-square-caret-down"
+              ></i>
+              <p>REELS</p></span
+            >
+            <span class="feed-span"
+              ><i
+                style="margin-right: 10px;"
+                class="fa-solid fa-users-rectangle"
+              ></i>
+              <p>TAGGED</p></span
+            >
+          </div>
+          <div class="posts">
+            <div class="container">
+              <div class="image-container">
+                <img src="https://picsum.photos/400" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">200</i>
+                  <i class="fa-sharp fa-solid fa-comment">50</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=1" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">50</i>
+                  <i class="fa-sharp fa-solid fa-comment">5</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=2" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">60</i>
+                  <i class="fa-sharp fa-solid fa-comment">7</i>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=34" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">70</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=25" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">80</i>
+                  <i class="fa-sharp fa-solid fa-comment">8</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=26" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">90</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=4" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">70</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=5" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">80</i>
+                  <i class="fa-sharp fa-solid fa-comment">8</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=6" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">90</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=34" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">70</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=75" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">80</i>
+                  <i class="fa-sharp fa-solid fa-comment">8</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=76" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">90</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=64" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">70</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=65" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">80</i>
+                  <i class="fa-sharp fa-solid fa-comment">8</i>
+                </div>
+              </div>
+              <div class="image-container">
+                <img src="https://picsum.photos/400?random=66" />
+                <div class="icon">
+                  <i class="fa-solid fa-heart">90</i>
+                  <i class="fa-sharp fa-solid fa-comment">9</i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
